@@ -1,0 +1,147 @@
+.bg,
+.bgChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 327px;
+  height: 60px;
+}
+.bgChild {
+  border-radius: var(--br-smi);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+}
+.bg {
+  display: none;
+}
+.dotsradioIcon {
+  position: absolute;
+  top: 23px;
+  left: 290px;
+  width: 15px;
+  height: 15px;
+}
+.unitedKingdom {
+  position: absolute;
+  top: 18px;
+  left: 27px;
+}
+.bgParent {
+  position: relative;
+  border-radius: var(--br-smi);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  width: 327px;
+  height: 60px;
+}
+.germany {
+  position: absolute;
+  top: 18px;
+  left: 26px;
+}
+.frame224list,
+.france,
+.portugal {
+  position: absolute;
+  top: 18px;
+  left: 29px;
+}
+.frame224list,
+.portugal {
+  left: 28px;
+}
+.frame224list {
+  top: 43px;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.countryOrRegion {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  font-size: var(--font-size-lg);
+  font-weight: 600;
+}
+.frame224listParent {
+  position: absolute;
+  top: 198px;
+  left: 556px;
+  width: 327px;
+  height: 483px;
+}
+.bgChild3 {
+  border-radius: var(--br-smi);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  width: 327px;
+  height: 50px;
+}
+.bg6,
+.bgChild3,
+.searchCountry {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.bg6 {
+  width: 327px;
+  height: 50px;
+  display: none;
+}
+.searchCountry {
+  display: inline-block;
+  width: 177px;
+}
+.text,
+.vectorIcon {
+  position: absolute;
+  top: 15px;
+  left: 51px;
+  width: 177px;
+  height: 21px;
+}
+.vectorIcon {
+  height: 33%;
+  width: 5.05%;
+  top: 36%;
+  right: 88.53%;
+  bottom: 31%;
+  left: 6.42%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.bgParent3 {
+  position: absolute;
+  top: 81px;
+  left: 526px;
+  border-radius: var(--br-smi);
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  width: 388px;
+  height: 50px;
+  font-size: var(--font-size-sm);
+  color: var(--color-darkgray);
+}
+.arrowIcon {
+  position: absolute;
+  top: 88px;
+  left: 278px;
+  width: 35px;
+  height: 35px;
+}
+.notification {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 768px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

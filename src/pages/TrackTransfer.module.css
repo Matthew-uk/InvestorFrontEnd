@@ -1,0 +1,219 @@
+.moreiconbutton {
+  position: absolute;
+  top: 7px;
+  left: 316px;
+  width: 35px;
+  height: 35px;
+}
+.sendMoney {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+}
+.tile {
+  position: absolute;
+  top: 15px;
+  left: 122px;
+  width: 132px;
+  height: 27px;
+}
+.arrowIcon,
+.title {
+  position: absolute;
+  top: 7px;
+  left: 24px;
+  width: 35px;
+  height: 35px;
+}
+.title {
+  top: 77px;
+  left: 508px;
+  width: 375px;
+  height: 50px;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}
+.switchOffChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-mediumslateblue-100);
+  width: 37.56px;
+  height: 20.08px;
+}
+.switchOffItem {
+  position: absolute;
+  top: 1.67px;
+  left: 16.9px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 18.78px;
+  height: 16.73px;
+}
+.switchOff {
+  position: absolute;
+  top: 0;
+  left: 300.44px;
+  width: 37.56px;
+  height: 20.08px;
+}
+.discountsSales,
+.text {
+  position: absolute;
+  left: 0;
+  width: 131px;
+  height: 16px;
+}
+.discountsSales {
+  top: 0;
+  display: inline-block;
+}
+.text {
+  top: 4px;
+}
+.div,
+.switchOffInner {
+  position: absolute;
+  top: 174px;
+  left: 532px;
+  width: 338px;
+  height: 20.08px;
+}
+.switchOffInner {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-mediumslateblue-100);
+  width: 37.56px;
+  height: 20.3px;
+}
+.ellipseDiv {
+  position: absolute;
+  top: 1.69px;
+  left: 16.9px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 18.78px;
+  height: 16.92px;
+}
+.switchOff1 {
+  position: absolute;
+  top: 0;
+  left: 300.44px;
+  width: 37.56px;
+  height: 20.3px;
+}
+.discountsSales1 {
+  display: inline-block;
+}
+.discountsSales1,
+.text1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 117px;
+  height: 16px;
+}
+.div1,
+.rectangleDiv {
+  position: absolute;
+  top: 260px;
+  left: 532px;
+  width: 338px;
+  height: 20.3px;
+}
+.rectangleDiv {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gainsboro);
+  width: 36.89px;
+  height: 23.3px;
+}
+.nobIcon,
+.switchOff2 {
+  position: absolute;
+  top: 1.94px;
+  left: 1.84px;
+  width: 18.45px;
+  height: 19.42px;
+}
+.switchOff2 {
+  top: 0;
+  left: 295.11px;
+  width: 36.89px;
+  height: 23.3px;
+}
+.discountsSales2 {
+  display: inline-block;
+}
+.discountsSales2,
+.text2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 128.6px;
+  height: 17.96px;
+}
+.div2,
+.switchOffChild1 {
+  position: absolute;
+  top: 336px;
+  left: 532px;
+  width: 332px;
+  height: 23.3px;
+}
+.switchOffChild1 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-gainsboro);
+  width: 37.67px;
+  height: 21.55px;
+}
+.nobIcon1,
+.switchOff3 {
+  position: absolute;
+  top: 1.8px;
+  left: 1.88px;
+  width: 18.83px;
+  height: 17.96px;
+}
+.switchOff3 {
+  top: 0;
+  left: 301.33px;
+  width: 37.67px;
+  height: 21.55px;
+}
+.discountsSales3 {
+  display: inline-block;
+}
+.discountsSales3,
+.div3,
+.text3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 117px;
+  height: 16.33px;
+}
+.div3 {
+  top: 415px;
+  left: 529px;
+  width: 339px;
+  height: 21.55px;
+}
+.tracktransfer {
+  position: relative;
+  background-color: var(--color-whitesmoke-200);
+  width: 100%;
+  height: 768px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-gray-300);
+  font-family: var(--font-overpass);
+}

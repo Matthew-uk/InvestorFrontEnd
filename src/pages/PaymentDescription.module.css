@@ -1,0 +1,100 @@
+.bankToBank {
+  position: absolute;
+  top: 10px;
+  left: 144px;
+}
+.iconlylightOutlinearrowL {
+  position: absolute;
+  top: 3px;
+  left: 34px;
+  width: 35px;
+  height: 35px;
+}
+.ammountChild,
+.bankToBankParent {
+  position: absolute;
+  top: 64px;
+  left: 495px;
+  width: 375px;
+  height: 44px;
+}
+.ammountChild {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 15px 20px 45px rgba(233, 233, 233, 0.25);
+  border: 1px solid var(--color-mediumslateblue-100);
+  box-sizing: border-box;
+}
+.ammount {
+  position: absolute;
+  height: 7.25%;
+  width: 77.29%;
+  top: 36.46%;
+  right: 11.36%;
+  bottom: 56.29%;
+  left: 11.35%;
+}
+.background {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: var(--color-mediumslateblue-100);
+}
+.background,
+.btn,
+.continue {
+  position: absolute;
+}
+.continue {
+  height: 34.24%;
+  width: 42.78%;
+  top: 33.71%;
+  left: 27.75%;
+  letter-spacing: 1px;
+  line-height: 20px;
+  display: inline-block;
+}
+.btn {
+  height: 6.47%;
+  width: 77.29%;
+  top: 50%;
+  right: 11.36%;
+  bottom: 43.53%;
+  left: 11.35%;
+  color: var(--color-white);
+}
+.enterTheAmmount {
+  position: absolute;
+  top: 150px;
+  left: 593px;
+  font-size: 26px;
+  line-height: 26px;
+  text-align: left;
+}
+.enterAmmountYou {
+  position: absolute;
+  top: 217px;
+  left: 620px;
+  font-size: var(--font-size-sm);
+  line-height: 14px;
+  color: #4b5060;
+  text-align: left;
+}
+.paymentDescription {
+  position: relative;
+  background-color: var(--color-whitesmoke-200);
+  width: 100%;
+  height: 768px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-300);
+  font-family: var(--font-overpass);
+}

@@ -1,0 +1,569 @@
+.creditCard {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+}
+.cardName,
+.price {
+  position: absolute;
+  top: 28px;
+  left: 267px;
+  width: 59px;
+  height: 15px;
+}
+.price {
+  top: 8px;
+  left: 280px;
+  width: 46px;
+  height: 17px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+}
+.iconChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-smi);
+  background-color: rgba(187, 187, 187, 0.15);
+  width: 50px;
+  height: 50px;
+}
+.image6Icon {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  border-radius: 524px;
+  width: 22px;
+  height: 22px;
+  object-fit: cover;
+}
+.icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  height: 50px;
+}
+.date {
+  top: 31px;
+  left: 65px;
+  width: 69px;
+  height: 15px;
+}
+.date,
+.figma,
+.text {
+  position: absolute;
+}
+.text {
+  top: 5px;
+  left: 65px;
+  width: 45px;
+  height: 21px;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+}
+.figma {
+  top: 98px;
+  left: 1px;
+  width: 326px;
+  height: 50px;
+}
+.cardName1,
+.price1 {
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 55px;
+  height: 15px;
+}
+.price1 {
+  top: 0;
+  left: 9px;
+  width: 45px;
+  height: 17px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+}
+.cardNameParent,
+.date1 {
+  position: absolute;
+  top: 8px;
+  left: 271px;
+  width: 55px;
+  height: 35px;
+}
+.date1 {
+  top: 26px;
+  left: 0;
+  width: 69px;
+  height: 15px;
+}
+.dateParent,
+.text1 {
+  position: absolute;
+  width: 111px;
+}
+.text1 {
+  top: 0;
+  left: 0;
+  height: 21px;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+}
+.dateParent {
+  top: 5px;
+  left: 65px;
+  height: 41px;
+}
+.groupParent,
+.iconItem,
+.skype,
+.title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+}
+.iconItem {
+  border-radius: var(--br-smi);
+  background-color: rgba(0, 175, 240, 0.15);
+  width: 50px;
+}
+.groupParent,
+.skype,
+.title {
+  width: 176px;
+}
+.skype,
+.title {
+  top: 33px;
+  left: 1px;
+  width: 326px;
+}
+.title {
+  top: 0;
+  left: 0;
+  width: 69px;
+  height: 15px;
+  text-align: center;
+}
+.june2022,
+.price2 {
+  position: absolute;
+  top: 535px;
+  left: 0;
+  width: 327px;
+  height: 148px;
+}
+.price2 {
+  top: 0;
+  left: 4px;
+  width: 50px;
+  height: 17px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+}
+.cardNameGroup {
+  position: absolute;
+  top: 8px;
+  left: 272px;
+  width: 55px;
+  height: 35px;
+}
+.date2,
+.snapchatAds {
+  position: absolute;
+  left: 0;
+}
+.date2 {
+  top: 26px;
+  width: 66px;
+  height: 15px;
+}
+.snapchatAds {
+  top: 0;
+  font-size: var(--font-size-sm);
+  font-weight: 500;
+  color: var(--color-black);
+}
+.dateGroup,
+.iconInner {
+  position: absolute;
+  top: 5px;
+  left: 65px;
+  width: 100px;
+  height: 41px;
+}
+.iconInner {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-smi);
+  background-color: rgba(255, 184, 1, 0.15);
+  width: 50px;
+  height: 50px;
+}
+.groupContainer,
+.price3,
+.snapchat {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 165px;
+  height: 50px;
+}
+.price3,
+.snapchat {
+  top: 164px;
+  width: 327px;
+}
+.price3 {
+  top: 0;
+  left: 11px;
+  width: 43px;
+  height: 17px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+}
+.date3,
+.text2 {
+  position: absolute;
+  top: 22px;
+  left: 0;
+  width: 66px;
+  height: 15px;
+}
+.text2 {
+  top: 0;
+  width: 58px;
+  height: 21px;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+}
+.dateContainer,
+.rectangleDiv {
+  position: absolute;
+  top: 7px;
+  left: 65px;
+  width: 66px;
+  height: 37px;
+}
+.rectangleDiv {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-smi);
+  background-color: var(--color-steelblue);
+  width: 50px;
+  height: 50px;
+}
+.cardName4,
+.groupDiv,
+.linkedin,
+.price4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 131px;
+  height: 50px;
+}
+.cardName4,
+.linkedin,
+.price4 {
+  top: 99px;
+  width: 327px;
+}
+.cardName4,
+.price4 {
+  top: 20px;
+  width: 59px;
+  height: 15px;
+}
+.price4 {
+  top: 0;
+  left: 17px;
+  width: 43px;
+  height: 17px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+}
+.cardNameParent1,
+.text3 {
+  position: absolute;
+  top: 8px;
+  left: 266px;
+  width: 60px;
+  height: 35px;
+}
+.text3 {
+  top: 0;
+  left: 0;
+  width: 63px;
+  height: 21px;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+}
+.behance,
+.iconChild1,
+.title1 {
+  position: absolute;
+  left: 0;
+  height: 50px;
+}
+.iconChild1 {
+  top: 0;
+  border-radius: var(--br-smi);
+  background-color: var(--color-mediumslateblue-200);
+  width: 50px;
+}
+.behance,
+.title1 {
+  top: 34px;
+  width: 326px;
+}
+.title1 {
+  top: 0;
+  width: 51px;
+  height: 15px;
+  text-align: center;
+}
+.price5,
+.text4,
+.yesterday {
+  position: absolute;
+  top: 300px;
+  left: 0;
+  width: 327px;
+  height: 214px;
+}
+.price5,
+.text4 {
+  top: 0;
+  left: 6px;
+  width: 48px;
+  height: 17px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+}
+.text4 {
+  left: 0;
+  width: 60px;
+  height: 21px;
+  font-size: var(--font-size-sm);
+}
+.dribbble,
+.iconChild2,
+.price6 {
+  position: absolute;
+  left: 0;
+  height: 50px;
+}
+.iconChild2 {
+  top: 0;
+  border-radius: var(--br-smi);
+  background-color: var(--color-hotpink);
+  width: 50px;
+}
+.dribbble,
+.price6 {
+  top: 229px;
+  width: 327px;
+}
+.price6 {
+  top: 0;
+  left: 14px;
+  width: 45px;
+  height: 17px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+}
+.cardNameParent3,
+.iconChild3 {
+  position: absolute;
+  top: 8px;
+  left: 267px;
+  width: 59px;
+  height: 35px;
+}
+.iconChild3 {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-smi);
+  background-color: var(--color-limegreen);
+  width: 50px;
+  height: 50px;
+}
+.image4Icon {
+  position: absolute;
+  top: 13px;
+  left: 12px;
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+}
+.text5 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 49px;
+  height: 21px;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+}
+.dateParent3 {
+  position: absolute;
+  top: 5px;
+  left: 65px;
+  width: 69px;
+  height: 41px;
+}
+.iconParent,
+.price7,
+.spotify,
+.text6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 134px;
+  height: 50px;
+}
+.price7,
+.spotify,
+.text6 {
+  top: 164px;
+  width: 326px;
+}
+.price7,
+.text6 {
+  top: 0;
+  left: 7px;
+  width: 48px;
+  height: 17px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+}
+.text6 {
+  left: 0;
+  width: 43px;
+  height: 21px;
+  font-size: var(--font-size-sm);
+}
+.iconChild4,
+.netflix,
+.price8 {
+  position: absolute;
+  left: 0;
+  height: 50px;
+}
+.iconChild4 {
+  top: 0;
+  border-radius: var(--br-smi);
+  background-color: var(--color-red);
+  width: 50px;
+}
+.netflix,
+.price8 {
+  top: 99px;
+  width: 326px;
+}
+.price8 {
+  top: 0;
+  left: 4px;
+  width: 51px;
+  height: 17px;
+  font-size: var(--font-size-2xs);
+  color: var(--color-black);
+}
+.dateParent5,
+.text7 {
+  position: absolute;
+  width: 82px;
+}
+.text7 {
+  top: 0;
+  left: 0;
+  height: 21px;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+}
+.dateParent5 {
+  top: 5px;
+  left: 65px;
+  height: 41px;
+}
+.groupParent4,
+.iconChild5,
+.title2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 50px;
+}
+.iconChild5 {
+  border-radius: var(--br-smi);
+  background-color: var(--color-whitesmoke-100);
+  width: 50px;
+}
+.groupParent4,
+.title2 {
+  width: 147px;
+}
+.title2 {
+  width: 76px;
+  height: 15px;
+  text-align: center;
+}
+.june2022Parent,
+.today {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 327px;
+  height: 279px;
+}
+.june2022Parent {
+  top: 84px;
+  left: 556px;
+  height: 683px;
+}
+.notificationiconbutton {
+  position: absolute;
+  top: 7px;
+  left: 316px;
+  width: 35px;
+  height: 35px;
+}
+.transferRequest {
+  position: absolute;
+  top: 11px;
+  left: 155px;
+  font-weight: 600;
+}
+.arrowIcon,
+.title3 {
+  position: absolute;
+  top: 7px;
+  left: 24px;
+  width: 35px;
+  height: 35px;
+}
+.title3 {
+  top: 24px;
+  left: 533px;
+  width: 375px;
+  height: 50px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.history {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 768px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-darkgray);
+  font-family: var(--font-poppins);
+}

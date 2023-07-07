@@ -1,0 +1,315 @@
+.bg,
+.bgChild {
+  position: absolute;
+  left: 0;
+  width: 331.07px;
+  height: 46.7px;
+}
+.bgChild {
+  top: 0;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-mediumslateblue-100);
+}
+.bg {
+  top: 153.14px;
+}
+.logOut,
+.text {
+  width: 62.77px;
+  height: 22.42px;
+}
+.logOut {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  display: inline-block;
+}
+.text {
+  top: 161.29px;
+  left: 119px;
+}
+.button,
+.icon,
+.text {
+  position: absolute;
+}
+.icon {
+  height: 6.63%;
+  width: 11.46%;
+  top: 0;
+  right: 23.86%;
+  bottom: 93.37%;
+  left: 64.68%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.button {
+  top: 501.86px;
+  left: 559px;
+  width: 331.07px;
+  height: 199.84px;
+  color: var(--color-white);
+}
+.privacySettings {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 500;
+}
+.text1 {
+  position: absolute;
+  top: 8px;
+  left: 56px;
+  width: 120px;
+  height: 24px;
+}
+.bgItem {
+  border-radius: var(--br-6xs);
+  background-color: var(--color-lavender);
+}
+.bgItem,
+.groupContainer,
+.groupWrapper,
+.icon1,
+.line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+}
+.groupContainer,
+.groupWrapper,
+.line {
+  width: 176px;
+}
+.groupWrapper,
+.line {
+  top: 320px;
+}
+.line {
+  top: 299.5px;
+  left: -0.5px;
+  border-top: 1px solid var(--color-whitesmoke-300);
+  box-sizing: border-box;
+  width: 328px;
+  height: 1px;
+}
+.notification,
+.text2 {
+  position: absolute;
+  width: 93.28px;
+  height: 25.53px;
+}
+.notification {
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+}
+.text2 {
+  top: 8.51px;
+  left: 56.17px;
+}
+.bgInner {
+  border-radius: var(--br-6xs);
+  background-color: var(--color-lavender);
+}
+.bgInner,
+.groupFrame,
+.icon2,
+.textGroup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40.12px;
+  height: 42.55px;
+}
+.groupFrame,
+.textGroup {
+  width: 149.45px;
+}
+.groupFrame {
+  top: 125.85px;
+}
+.personalInfo,
+.text3 {
+  position: absolute;
+  width: 105.32px;
+  height: 25.17px;
+}
+.personalInfo {
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+}
+.text3 {
+  top: 8.39px;
+  left: 56.17px;
+}
+.rectangleDiv {
+  border-radius: var(--br-6xs);
+  background-color: var(--color-lavender);
+}
+.groupWrapper1,
+.icon3,
+.rectangleDiv,
+.textContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40.12px;
+  height: 41.95px;
+}
+.groupWrapper1,
+.textContainer {
+  width: 161.49px;
+}
+.groupWrapper1 {
+  top: 68px;
+}
+.settings,
+.text4 {
+  position: absolute;
+  width: 66.2px;
+  height: 25.17px;
+}
+.settings {
+  top: 0;
+  left: 0;
+  font-weight: 500;
+  display: inline-block;
+}
+.text4 {
+  top: 8.39px;
+  left: 56.17px;
+}
+.groupDiv,
+.groupParent,
+.groupWrapper2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 122.37px;
+  height: 41.95px;
+}
+.groupDiv,
+.groupParent {
+  width: 161.49px;
+  height: 168.4px;
+}
+.groupParent {
+  top: 241px;
+  left: 599px;
+  width: 327px;
+  height: 360px;
+}
+.settingsiconbutton {
+  position: absolute;
+  top: 7px;
+  left: 316px;
+  width: 34px;
+  height: 34px;
+}
+.profile1,
+.tile {
+  position: absolute;
+}
+.profile1 {
+  top: 0;
+  left: 0;
+  font-weight: 600;
+}
+.tile {
+  top: 11px;
+  left: 158px;
+  width: 58px;
+  height: 27px;
+}
+.arrowIcon,
+.title {
+  position: absolute;
+  top: 7px;
+  left: 24px;
+  width: 35px;
+  height: 35px;
+}
+.title {
+  top: 43px;
+  left: 532px;
+  width: 375px;
+  height: 50px;
+  text-align: center;
+  font-size: var(--font-size-lg);
+}
+.bgChild2 {
+  border-radius: var(--br-6xs);
+  background-color: var(--color-lavender);
+}
+.bg5,
+.bgChild2,
+.edit,
+.title1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 30px;
+}
+.edit,
+.title1 {
+  top: 25px;
+  left: 231px;
+}
+.title1 {
+  top: 27px;
+  left: 0;
+  width: 77px;
+  height: 15px;
+}
+.name,
+.titleParent {
+  position: absolute;
+  width: 110px;
+}
+.name {
+  top: 0;
+  left: 0;
+  height: 27px;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.titleParent {
+  top: 19px;
+  left: 95px;
+  height: 42px;
+}
+.editParent,
+.groupChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+}
+.editParent {
+  top: 127px;
+  left: 591px;
+  width: 261px;
+  font-size: var(--font-size-3xs);
+  color: var(--color-darkgray);
+}
+.profile {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 768px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  font-family: var(--font-poppins);
+}

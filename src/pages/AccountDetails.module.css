@@ -1,0 +1,239 @@
+.chips {
+  position: absolute;
+  top: 8px;
+  left: 48.5px;
+  letter-spacing: 0.2px;
+  line-height: 22.4px;
+  font-weight: 600;
+}
+.sizemediumTypefilledIcon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-lightseagreen);
+  width: 106.03px;
+  height: 38px;
+  color: var(--color-white);
+}
+.chips1 {
+  position: absolute;
+  top: 8px;
+  left: 45px;
+  letter-spacing: 0.2px;
+  line-height: 22.4px;
+  font-weight: 600;
+}
+.sizemediumTypeborderIcon {
+  position: absolute;
+  top: 0;
+  left: 113.04px;
+  border-radius: var(--br-81xl);
+  border: 2px solid var(--color-lightseagreen);
+  box-sizing: border-box;
+  width: 106.91px;
+  height: 38px;
+}
+.chips2 {
+  position: absolute;
+  top: 8px;
+  left: 47.5px;
+  letter-spacing: 0.2px;
+  line-height: 22.4px;
+  font-weight: 600;
+}
+.sizemediumTypeborderIcon1 {
+  position: absolute;
+  top: 0;
+  left: 226.97px;
+  border-radius: var(--br-81xl);
+  border: 2px solid var(--color-lightseagreen);
+  box-sizing: border-box;
+  width: 106.03px;
+  height: 38px;
+}
+.sizemediumTypefilledIconParent {
+  position: absolute;
+  top: 102px;
+  left: 553px;
+  width: 333px;
+  height: 38px;
+  color: var(--color-lightseagreen);
+}
+.label {
+  position: absolute;
+  top: 18px;
+  left: 20px;
+  letter-spacing: 0.2px;
+  line-height: 19.6px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 340px;
+}
+.statusfillTypedefaultSta,
+.statusfillTypedefaultSta1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-mediumslateblue-100);
+  width: 333px;
+  height: 56px;
+}
+.statusfillTypedefaultSta1 {
+  top: 80px;
+}
+.iconlyboldprofile,
+.label2 {
+  position: absolute;
+  top: 18px;
+  left: 20px;
+}
+.iconlyboldprofile {
+  width: 20px;
+  height: 20px;
+  display: none;
+}
+.label2 {
+  letter-spacing: 0.2px;
+  line-height: 19.6px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 308px;
+}
+.dateedittext,
+.vectorIcon {
+  position: absolute;
+  top: 18px;
+  left: 301px;
+  width: 16.96px;
+  height: 18.17px;
+}
+.dateedittext {
+  top: 160px;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-mediumslateblue-100);
+  width: 333px;
+  height: 56px;
+}
+.inputEdittext,
+.vectorIcon1 {
+  position: absolute;
+  top: 21px;
+  left: 302px;
+  width: 17.37px;
+  height: 16.69px;
+}
+.inputEdittext {
+  top: 240px;
+  left: 0;
+  border-radius: var(--br-xs);
+  background-color: var(--color-mediumslateblue-100);
+  width: 333px;
+  height: 56px;
+}
+.autoLayoutHorizontal {
+  position: absolute;
+  top: 19px;
+  left: 20px;
+  width: 48px;
+  height: 18px;
+}
+.label4 {
+  position: absolute;
+  top: 8px;
+  left: 6px;
+  letter-spacing: 0.2px;
+  line-height: 19.6px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 280px;
+}
+.labelWrapper,
+.phoneedittext {
+  position: absolute;
+  background-color: var(--color-mediumslateblue-100);
+}
+.labelWrapper {
+  top: 13px;
+  left: 20px;
+  width: 286px;
+  height: 37px;
+  overflow: hidden;
+}
+.phoneedittext {
+  top: 320px;
+  left: 0;
+  border-radius: var(--br-xs);
+  width: 333px;
+  height: 56px;
+}
+.statusfillTypedefaultStaParent {
+  position: absolute;
+  top: 164px;
+  left: 553px;
+  width: 333px;
+  height: 376px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+}
+.continue {
+  position: absolute;
+  top: 18px;
+  left: 16px;
+  letter-spacing: 0.2px;
+  line-height: 22.4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 348px;
+  height: 19px;
+}
+.button {
+  position: absolute;
+  top: 589px;
+  left: 530px;
+  border-radius: var(--br-81xl);
+  background-color: var(--color-lightseagreen);
+  box-shadow: 4px 8px 24px rgba(26, 182, 92, 0.25);
+  width: 380px;
+  height: 55px;
+}
+.iconlylightOutlinearrowL {
+  position: absolute;
+  top: 3px;
+  left: 24px;
+  width: 35px;
+  height: 35px;
+}
+.nameOfReservation {
+  position: absolute;
+  top: 12px;
+  left: 95px;
+  line-height: 28.8px;
+}
+.navigationBar {
+  position: absolute;
+  top: 28px;
+  left: 532px;
+  width: 375px;
+  height: 50px;
+  text-align: left;
+  font-size: 24px;
+  color: #181a20;
+}
+.accountDetails {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 768px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-urbanist);
+}

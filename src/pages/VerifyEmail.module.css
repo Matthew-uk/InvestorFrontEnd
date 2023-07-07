@@ -1,0 +1,153 @@
+.buttonChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-smi);
+  background-color: var(--color-mediumslateblue-100);
+  width: 327px;
+  height: 50px;
+}
+.verifyCode {
+  position: absolute;
+  top: 13px;
+  left: 116px;
+  font-weight: 600;
+}
+.button,
+.elmentIcon {
+  position: absolute;
+  top: 533px;
+  left: 524px;
+  width: 327px;
+  height: 50px;
+}
+.elmentIcon {
+  top: 208px;
+  left: 69px;
+  width: 92px;
+  height: 1px;
+}
+.resendCode {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.text {
+  top: 188px;
+  left: 68px;
+  width: 94px;
+  height: 21px;
+  color: var(--color-mediumslateblue-100);
+}
+.child,
+.div1,
+.text {
+  position: absolute;
+}
+.child {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  border: 1px solid var(--color-lightgray);
+  box-sizing: border-box;
+  width: 50px;
+  height: 50px;
+}
+.div1 {
+  top: 12px;
+  left: 19px;
+}
+.code,
+.div,
+.div2,
+.div4,
+.div6 {
+  position: absolute;
+  top: 0;
+  left: 180px;
+  width: 50px;
+  height: 50px;
+}
+.code,
+.div2,
+.div4,
+.div6 {
+  left: 120px;
+}
+.code,
+.div4,
+.div6 {
+  left: 60px;
+}
+.code,
+.div6 {
+  left: 0;
+}
+.code {
+  top: 123px;
+  width: 230px;
+  font-size: var(--font-size-lg);
+}
+.pleaseEnter4 {
+  margin: 0;
+  font-weight: 500;
+}
+.xyzgmailcom {
+  margin: 0;
+  font-family: var(--font-inter);
+  color: var(--color-mediumslateblue-100);
+}
+.pleaseEnter4Container {
+  position: absolute;
+  top: 53px;
+  left: 2px;
+  color: var(--color-gray-100);
+}
+.verifyYourEmail {
+  position: absolute;
+  top: 0;
+  left: 31px;
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  text-align: left;
+}
+.elmentParent {
+  position: absolute;
+  top: 293px;
+  left: 574px;
+  width: 230px;
+  height: 209px;
+  text-align: center;
+  font-size: var(--font-size-sm);
+  color: var(--color-black);
+}
+.illustrationIcon {
+  position: absolute;
+  height: 18.97%;
+  width: 41.53%;
+  top: 7.71%;
+  right: 28.89%;
+  bottom: 73.32%;
+  left: 29.58%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.arrowIcon {
+  position: absolute;
+  top: 68px;
+  left: 228px;
+  width: 35px;
+  height: 35px;
+}
+.verifyEmail {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 768px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

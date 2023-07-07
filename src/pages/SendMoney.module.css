@@ -1,0 +1,198 @@
+.buttonChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-4xs);
+  background-color: var(--color-mediumslateblue-100);
+  width: 327px;
+  height: 50px;
+}
+.sendMoney1 {
+  position: absolute;
+  top: 13px;
+  left: 113px;
+  font-weight: 600;
+}
+.button,
+.moreiconbutton {
+  position: absolute;
+  top: 448px;
+  left: 556px;
+  width: 327px;
+  height: 50px;
+}
+.moreiconbutton {
+  top: 7px;
+  left: 316px;
+  width: 35px;
+  height: 35px;
+}
+.sendMoney2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+}
+.tile {
+  position: absolute;
+  top: 11px;
+  left: 131px;
+  width: 113px;
+  height: 27px;
+}
+.arrowIcon,
+.title {
+  position: absolute;
+  top: 7px;
+  left: 24px;
+  width: 35px;
+  height: 35px;
+}
+.title {
+  top: 51px;
+  left: 538px;
+  width: 375px;
+  height: 50px;
+  font-size: var(--font-size-lg);
+  color: var(--color-black);
+}
+.bgChild {
+  border-radius: var(--br-smi);
+  background-color: var(--color-white);
+  box-shadow: 0 11px 40px -8px rgba(0, 0, 0, 0.08);
+}
+.bg,
+.bgChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 327px;
+  height: 80px;
+}
+.arrowIcon1,
+.cardIcon,
+.div {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  width: 50px;
+  height: 50px;
+}
+.arrowIcon1,
+.div {
+  top: 25px;
+  left: 281px;
+  width: 30px;
+  height: 30px;
+}
+.div {
+  top: 0;
+  left: -1px;
+  font-weight: 500;
+  display: inline-block;
+  width: 91px;
+  height: 8px;
+}
+.name,
+.wrapper {
+  position: absolute;
+  top: 45px;
+  left: 80px;
+  width: 90px;
+  height: 12px;
+}
+.name {
+  top: 22px;
+  height: 23px;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+}
+.editIcon,
+.mastercard {
+  position: absolute;
+  top: 96px;
+  left: 0;
+  width: 327px;
+  height: 80px;
+}
+.editIcon {
+  top: 10px;
+  left: 265px;
+  width: 30px;
+  height: 30px;
+}
+.title1,
+.webDeveloper {
+  position: absolute;
+  left: 0;
+}
+.webDeveloper {
+  top: 0;
+  font-weight: 500;
+}
+.title1 {
+  top: 24px;
+  width: 69px;
+  height: 14px;
+}
+.name1,
+.titleParent {
+  position: absolute;
+  width: 92px;
+}
+.name1 {
+  top: 0;
+  left: 0;
+  height: 23px;
+  font-size: var(--font-size-mini);
+  color: var(--color-black);
+}
+.titleParent {
+  top: 6px;
+  left: 64px;
+  height: 38px;
+}
+.editParent,
+.groupChild {
+  position: absolute;
+  height: 50px;
+}
+.groupChild {
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  width: 50px;
+  object-fit: cover;
+}
+.editParent {
+  top: 15px;
+  left: 16px;
+  width: 295px;
+}
+.bgParent,
+.mastercardParent {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 327px;
+  height: 80px;
+  font-size: 9px;
+}
+.mastercardParent {
+  top: 146px;
+  left: 556px;
+  height: 176px;
+  font-size: 8px;
+  color: var(--color-darkgray);
+}
+.sendMoney {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 768px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
