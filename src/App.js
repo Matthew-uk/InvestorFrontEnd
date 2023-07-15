@@ -24,6 +24,10 @@ import ForgotPassword from "./pages/ForgotPassword";
 import VerifyEmail from "./pages/VerifyEmail";
 import Notification1 from "./pages/Notification1";
 import { useEffect } from "react";
+import AccountDetailsTest from "./pages/accountDetails/accountDetails";
+import SettingsTest from "./pages/settings/settings";
+import PaymentDescriptionTest from "./pages/paymentDescription/paymentDescription";
+import PrivacyPolicyTest from "./pages/privacyPolicy/privacyPolicy";
 
 function App() {
   const action = useNavigationType();
@@ -137,9 +141,16 @@ function App() {
     <Routes>
       <Route path="/" element={<Splash />} />
       <Route path="/payment-description" element={<PaymentDescription />} />
+      <Route
+        path="/payment-description-test"
+        element={<PaymentDescriptionTest />}
+      />
       <Route path="/account-details" element={<AccountDetails />} />
+      <Route path="/account-details-test" element={<AccountDetailsTest />} />
       <Route path="/privacyandpolicy" element={<PrivacyandPolicy />} />
+      <Route path="/privacyandpolicytest" element={<PrivacyPolicyTest />} />
       <Route path="/settings" element={<Settings />} />
+      <Route path="/settings-test" element={<SettingsTest />} />
       <Route path="/termsandconditions" element={<TermsAndConditions />} />
       <Route path="/confirmation" element={<Confirmation />} />
       <Route path="/transfer-request" element={<TransferRequest />} />

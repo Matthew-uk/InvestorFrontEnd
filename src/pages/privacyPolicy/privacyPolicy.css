@@ -1,0 +1,78 @@
+.privacyPolicySection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  min-height: 100vh;
+  font-family: monospace;
+}
+
+.privacyPolicyContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-inline: 2em;
+}
+
+.privacyPolicyContainer .head {
+  display: flex;
+  font-size: 1.5em;
+}
+
+.privacyPolicyContainer .head h2 {
+  position: relative;
+  font-size: 1.5em;
+  line-height: 1.5;
+  color: #333;
+}
+
+.privacyPolicyContainer .head h2::after,
+h2::before {
+  position: absolute;
+  content: "";
+  display: block;
+  top: 50%;
+  width: 50px;
+  height: 2px;
+  background: var(--color-mediumslateblue-100);
+  transform: translateY(-50%);
+}
+
+.privacyPolicyContainer .head h2::before {
+  left: -60px;
+}
+
+.privacyPolicyContainer .head h2::after {
+  right: -60px;
+}
+
+.privacyPolicyContainer .body {
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 600px) {
+  .privacyPolicyContainer .head h2 {
+    font-size: 1em;
+  }
+
+  .privacyPolicyContainer .head h2::after,
+  h2::before {
+    position: absolute;
+    content: "";
+    display: block;
+    top: 50%;
+    width: 30px;
+    height: 2px;
+    transform: translateY(-50%);
+  }
+
+  .privacyPolicyContainer .head h2::before {
+    left: -40px;
+  }
+
+  .privacyPolicyContainer .head h2::after {
+    right: -40px;
+  }
+}

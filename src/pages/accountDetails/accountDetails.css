@@ -1,0 +1,142 @@
+.accountDetailsSection {
+  /* border: 1px solid red; */
+  display: flex;
+  min-height: 100vh;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+}
+
+/* Account Details Container */
+
+.accountDetailsSectionContainer {
+  /* border: 1px solid green; */
+  border-radius: 5px;
+  min-width: 35%;
+  min-height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0.5em;
+}
+
+/* Account Details Navigation */
+
+.accountDetailsSectionNavigation {
+  /* border: 1px solid red; */
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accountDetailsSectionNavigationImg {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1em;
+  height: 1em;
+  padding: 0.5em;
+  border-radius: 40px;
+  font-size: 0.9em;
+  font-weight: bold;
+  /* margin-left: 0.5em; */
+  cursor: pointer;
+}
+
+.accountDetailsSectionNavigationBody {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  width: 85%;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+/* Account Details Body */
+
+.accountDetailsSectionBody {
+  /* border: 1px solid red; */
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.accountDetailsSectionBodyTop {
+  /* border: 1px solid red; */
+  display: flex;
+  min-width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-block: 1em;
+}
+
+.accountDetailsSectionBodyTopPod {
+  display: flex;
+  border: 1px solid var(--color-lightseagreen);
+  background: var(--color-white);
+  border-radius: var(--br-81xl);
+  color: var(--color-lightseagreen);
+  width: 100px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Active {
+  background: var(--color-lightseagreen);
+  color: var(--color-white) !important;
+}
+
+/*  */
+
+.accountDetailsSectionBodyMiddle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-width: 100%;
+  /* overflow: hidden; */
+}
+
+.accountDetailsSectionBodyMiddlePod {
+  display: flex;
+  width: 95%;
+  min-height: 2em;
+  padding-block: 1em;
+  padding-inline: 0.5em;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--color-mediumslateblue-100);
+  border-radius: var(--br-xs);
+  color: var(--color-white);
+  margin-bottom: 1em;
+  cursor: pointer;
+}
+
+/* Account Details Bottom */
+
+.accountDetailsSectionBodyBottom {
+  /* border: 1px solid red; */
+  min-width: 100%;
+}
+
+.accountDetailsSectionBodyBottom button {
+  background: var(--color-lightseagreen);
+  border: none;
+  width: 100%;
+  border-radius: var(--br-81xl);
+  min-height: 3em;
+  text-align: center;
+  color: var(--color-white);
+}

@@ -1,0 +1,108 @@
+.settingsSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  min-height: 100vh;
+  font-family: monospace;
+}
+
+.settingsSection .settingsSectionContainer {
+  min-width: 35%;
+}
+
+.settingsSectionNavigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settingsSectionNavigation .title {
+  font-size: 1.3em;
+}
+
+.settingsSectionBodyProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+.settingsSectionBodyProfile .img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+.settingsSectionBodyProfile .img img {
+  width: 65px;
+  height: 65px;
+  border-radius: 130px;
+  /* width: 100%; */
+}
+
+.settingsSectionBodyProfile .details p {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.settingsSectionBodyFunctions .card {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.settingsSectionBodyFunctions .line {
+  width: 100%;
+  border: 1px solid rgb(136, 135, 135);
+  height: 0.00001em;
+  margin-block: 0.5em;
+}
+
+.settingSectonBodyButton {
+  width: 100%;
+}
+
+.settingSectonBodyButton button {
+  background: var(--color-mediumslateblue-100);
+  border-radius: var(--br-4xs);
+  height: 3em;
+  text-align: center;
+  border: none;
+  width: 100%;
+  font-family: monospace;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+.settingsSectionBodyFunctions .card .notification-switch {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 30px;
+  height: 14px;
+  border-radius: 20px;
+  padding-inline: 2px;
+  background: var(--color-mediumslateblue-100);
+}
+
+.settingsSectionBodyFunctions .card .notification-switch .inner-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 20px;
+  background: aliceblue;
+}
+
+@media screen and (max-width: 830px) {
+  .settingsSection .settingsSectionContainer {
+    min-width: 60%;
+  }
+}

@@ -1,0 +1,81 @@
+.paymentDescriptionTest {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  min-height: 100vh;
+  font-family: monospace;
+}
+
+.paymentDescriptionTest .paymentDescriptionTestContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+}
+
+.paymentDescriptionTestContainer .paymentDescriptionTestNavigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.paymentDescriptionTestContainer .paymentDescriptionTestNavigation h3 {
+  font-size: 1.4em;
+  margin-left: 1em;
+}
+
+.paymentDescriptionTestDescription {
+  margin-bottom: 2em;
+}
+
+.paymentDescriptionTestDescription h2 {
+  font-size: 2em;
+  text-align: center;
+}
+
+.paymentDescriptionTestDescription p {
+  font-size: 0.9em;
+  text-align: center;
+  margin-top: -1em;
+}
+
+.paymentDescriptionTestInput {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95%;
+  margin-bottom: 2em;
+}
+
+.paymentDescriptionTestInput input {
+  width: 100%;
+  height: 2em;
+  border: 1px solid var(--color-mediumslateblue-100);
+}
+
+.paymentDescriptionTestButton {
+  width: 100%;
+}
+
+.paymentDescriptionTestButton button {
+  background: var(--color-mediumslateblue-100);
+  border-radius: var(--br-4xs);
+  height: 3em;
+  text-align: center;
+  border: none;
+  width: 100%;
+  font-family: monospace;
+  color: aliceblue;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .paymentDescriptionTest .paymentDescriptionTestContainer {
+    width: 60%;
+  }
+
+  .paymentDescriptionTestContainer .paymentDescriptionTestNavigation h3 {
+    font-size: 1em;
+  }
+}
